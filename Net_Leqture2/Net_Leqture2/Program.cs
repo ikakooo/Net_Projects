@@ -10,6 +10,23 @@ namespace Net_Leqture2
     {
         static void Main(string[] args)
         {
+            String s = Console.ReadLine();
+            int i = int.Parse("123334");
+           
+            bool isParsed = int.TryParse(s, out i);
+            Console.WriteLine(i);
+           
+
+            if (isParsed)
+            {
+                Console.WriteLine("parsed");
+            }
+            else
+            {
+                Console.WriteLine("Can't parce");
+            }
+             Console.ReadLine();
+
         }
     }
 }
