@@ -1,0 +1,5 @@
+c:\users\ikakooo\documents\visual studio 2015\Projects\Net_Leqture2\Net_Leqture2\bin\Release\Net_Leqture2.exe.config
+c:\users\ikakooo\documents\visual studio 2015\Projects\Net_Leqture2\Net_Leqture2\bin\Release\Net_Leqture2.exe
+c:\users\ikakooo\documents\visual studio 2015\Projects\Net_Leqture2\Net_Leqture2\bin\Release\Net_Leqture2.pdb
+c:\users\ikakooo\documents\visual studio 2015\Projects\Net_Leqture2\Net_Leqture2\obj\Release\Net_Leqture2.exe
+c:\users\ikakooo\documents\visual studio 2015\Projects\Net_Leqture2\Net_Leqture2\obj\Release\Net_Leqture2.pdb

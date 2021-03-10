@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Net_Leqture2
 {
     class Program
     {
-        public static void prceString()
+        public static void parceString()
         {
             int number = 0;
             bool isParsed = false;
@@ -24,7 +21,7 @@ namespace Net_Leqture2
                 }
                 else
                 {
-                    Console.WriteLine("Can't parce,try again");
+                    Console.WriteLine("Can't parce String,try again");
                 }
 
                
@@ -53,7 +50,7 @@ namespace Net_Leqture2
             //    Console.WriteLine("Can't parce");
             //}
 
-            prceString();
+            parceString();
             Console.ReadLine();
            
         }
