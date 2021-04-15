@@ -1,0 +1,6 @@
+c:\users\ikakooo\documents\visual studio 2015\Projects\I_Chkhitunidze_MidTerm\I_Chkhitunidze_MidTerm\bin\Debug\I_Chkhitunidze_MidTerm.exe.config
+c:\users\ikakooo\documents\visual studio 2015\Projects\I_Chkhitunidze_MidTerm\I_Chkhitunidze_MidTerm\bin\Debug\I_Chkhitunidze_MidTerm.exe
+c:\users\ikakooo\documents\visual studio 2015\Projects\I_Chkhitunidze_MidTerm\I_Chkhitunidze_MidTerm\bin\Debug\I_Chkhitunidze_MidTerm.pdb
+c:\users\ikakooo\documents\visual studio 2015\Projects\I_Chkhitunidze_MidTerm\I_Chkhitunidze_MidTerm\obj\Debug\I_Chkhitunidze_MidTerm.csprojResolveAssemblyReference.cache
+c:\users\ikakooo\documents\visual studio 2015\Projects\I_Chkhitunidze_MidTerm\I_Chkhitunidze_MidTerm\obj\Debug\I_Chkhitunidze_MidTerm.exe
+c:\users\ikakooo\documents\visual studio 2015\Projects\I_Chkhitunidze_MidTerm\I_Chkhitunidze_MidTerm\obj\Debug\I_Chkhitunidze_MidTerm.pdb
