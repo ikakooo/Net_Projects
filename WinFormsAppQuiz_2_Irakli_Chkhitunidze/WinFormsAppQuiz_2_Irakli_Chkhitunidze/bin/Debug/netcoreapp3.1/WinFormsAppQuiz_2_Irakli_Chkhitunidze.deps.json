@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WinFormsAppQuiz_2_Irakli_Chkhitunidze/1.0.0": {
+        "runtime": {
+          "WinFormsAppQuiz_2_Irakli_Chkhitunidze.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsAppQuiz_2_Irakli_Chkhitunidze/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
