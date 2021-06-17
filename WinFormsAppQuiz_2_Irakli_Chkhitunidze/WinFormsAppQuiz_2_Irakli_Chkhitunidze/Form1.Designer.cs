@@ -62,6 +62,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -105,6 +106,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.checkedListBox1);
             this.panel1.Controls.Add(this.listView2);
             this.panel1.Location = new System.Drawing.Point(455, 75);
@@ -130,6 +132,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(66, 49);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(253, 32);
@@ -141,6 +144,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(477, 49);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(214, 32);
@@ -152,6 +156,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(1236, 112);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(214, 32);
@@ -163,6 +168,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(1236, 180);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(266, 32);
@@ -186,6 +192,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(1267, 270);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(324, 36);
@@ -201,7 +208,6 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(158, 36);
             this.radioButton2.TabIndex = 11;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "ბარათით";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
@@ -237,7 +243,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             this.Column5,
             this.Column6,
             this.Column7});
-            this.dataGridView1.Location = new System.Drawing.Point(66, 543);
+            this.dataGridView1.Location = new System.Drawing.Point(66, 547);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 41;
@@ -296,6 +302,8 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.textBox7);
             this.panel2.Controls.Add(this.textBox8);
             this.panel2.Controls.Add(this.textBox9);
@@ -304,6 +312,16 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1070, 323);
             this.panel2.TabIndex = 15;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(655, 234);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(177, 46);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "შესრულება";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox7
             // 
@@ -325,8 +343,10 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // 
             this.textBox9.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox9.Enabled = false;
             this.textBox9.Location = new System.Drawing.Point(25, 179);
             this.textBox9.Name = "textBox9";
+            this.textBox9.ReadOnly = true;
             this.textBox9.Size = new System.Drawing.Size(554, 32);
             this.textBox9.TabIndex = 11;
             this.textBox9.Text = "მთლიანი მიღებული თანხა";
@@ -336,8 +356,10 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
             // 
             this.textBox10.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox10.Enabled = false;
             this.textBox10.Location = new System.Drawing.Point(25, 111);
             this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
             this.textBox10.Size = new System.Drawing.Size(554, 32);
             this.textBox10.TabIndex = 10;
             this.textBox10.Text = "რამდენი შეკვეთა იყო ბარათით გადახდილი";
@@ -404,6 +426,7 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Button button3;
     }
 }
 

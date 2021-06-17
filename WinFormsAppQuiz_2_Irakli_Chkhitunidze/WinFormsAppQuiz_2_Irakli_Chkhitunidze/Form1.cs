@@ -15,15 +15,15 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
         public Form1()
         {
             InitializeComponent();
-            textBox1.Enabled = false;
-            textBox2.Enabled = false;
-            textBox3.Enabled = false;
-            textBox4.Enabled = false;
+           // textBox1.Enabled = false;
+          //  textBox2.Enabled = false;
+           // textBox3.Enabled = false;
+          //  textBox4.Enabled = false;
         }
         
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+           
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -67,6 +67,11 @@ namespace WinFormsAppQuiz_2_Irakli_Chkhitunidze
         }
 
         private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }
